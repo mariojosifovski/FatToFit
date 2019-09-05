@@ -389,21 +389,20 @@ extension ExercisesTableViewController : AddSetViewControllerDelegate {
         
         
         // Reindex the set if needed
-        if let firstRegularSetIndex = exercise.sets.firstIndex(where: { $0.type == .regular }) {
-            
-            if set.type == .regular,
-                row < firstRegularSetIndex {
-                exercise.sets.remove(at: row)   // Move to last
-                exercise.sets.append(set)
-                row = exercise.sets.count - 1
-            }
-            else if set.type == .warmup,
-                row > firstRegularSetIndex {
-                exercise.sets.remove(at: row)
-                exercise.sets.insert(set, at: firstRegularSetIndex)
-                row = firstRegularSetIndex
-            }
-            
+        
+        if set.type == .regular,
+            let lastWarmupSetIndex = exercise.sets.lastIndex(where: { $0.type == .warmup }),
+            row < lastWarmupSetIndex {
+            exercise.sets.remove(at: row)   // Move to last
+            exercise.sets.append(set)
+            row = exercise.sets.count - 1
+        }
+        else if set.type == .warmup,
+            let firstRegularSetIndex = exercise.sets.firstIndex(where: { $0.type == .regular }),
+            row > firstRegularSetIndex {
+            exercise.sets.remove(at: row)
+            exercise.sets.insert(set, at: firstRegularSetIndex)
+            row = firstRegularSetIndex
         }
         
         cellControl[section] = true
