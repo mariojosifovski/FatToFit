@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ExerciseHeaderView" customModule="FatToFit" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="55"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="BdR-pV-9dX">
+                    <rect key="frame" x="20" y="10" width="374" height="35"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="751" alignment="firstBaseline" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="aSU-So-jZv">
+                            <rect key="frame" x="0.0" y="0.0" width="374" height="21.666666666666668"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Exercise #1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Ew-Z9-f90">
+                                    <rect key="frame" x="0.0" y="0.0" width="97.666666666666671" height="21.666666666666668"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="21.670000000000002" id="dhB-JU-8Hs"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" text="Marathon running" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Up-6B-Il3">
+                                    <rect key="frame" x="112.66666666666666" y="-5" width="261.33333333333337" height="26.666666666666668"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                    <color key="textColor" red="0.99971848730000001" green="0.64634239670000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="752" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hUC-to-Rgn">
+                                    <rect key="frame" x="374" y="2.6666666666666661" width="0.0" height="18"/>
+                                    <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
+                                    <state key="normal" title="+"/>
+                                </button>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="ni8-O5-2Nm">
+                            <rect key="frame" x="0.0" y="26.666666666666664" width="374" height="8.3333333333333357"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pgl-Tw-ZGo" userLabel="spacing">
+                                    <rect key="frame" x="0.0" y="0.0" width="162" height="8.3333333333333339"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dj4-Td-PlK">
+                                    <rect key="frame" x="169.66666666666666" y="0.0" width="0.0" height="8.3333333333333339"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
+                                    <state key="normal" title="view">
+                                        <color key="titleColor" red="0.12941176469999999" green="0.73333333329999995" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="viewAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="VEc-GU-VsH"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="88Z-9E-TFe">
+                                    <rect key="frame" x="177" y="0.0" width="69" height="8.3333333333333339"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
+                                    <state key="normal" title="add sets">
+                                        <color key="titleColor" red="0.12941176469999999" green="0.73333333329999995" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="addAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="T1J-4S-YhL"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Bs-0M-CTI">
+                                    <rect key="frame" x="261" y="0.0" width="42" height="8.3333333333333339"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
+                                    <state key="normal" title="edit">
+                                        <color key="titleColor" red="0.12941176469999999" green="0.73333333329999995" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="editAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="uNO-3o-jZF"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jXJ-nC-Zes">
+                                    <rect key="frame" x="318" y="0.0" width="56" height="8.3333333333333339"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
+                                    <state key="normal" title="delete">
+                                        <color key="titleColor" red="1" green="0.32017038799999997" blue="0.35629585850000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="deleteAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="VXN-MV-HB2"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="0.22480599832214765" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstItem="BdR-pV-9dX" firstAttribute="leading" secondItem="fCY-P6-H1f" secondAttribute="leading" constant="20" id="9kq-ag-Vtn"/>
+                <constraint firstItem="BdR-pV-9dX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="WQE-ff-cgE"/>
+                <constraint firstItem="fCY-P6-H1f" firstAttribute="trailing" secondItem="BdR-pV-9dX" secondAttribute="trailing" constant="20" id="mBO-ae-YEP"/>
+                <constraint firstAttribute="bottom" secondItem="BdR-pV-9dX" secondAttribute="bottom" constant="10" id="wj7-GU-hXT"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fCY-P6-H1f"/>
+            <connections>
+                <outlet property="addButton" destination="Dj4-Td-PlK" id="jhA-RH-Nbk"/>
+                <outlet property="controlsPannel" destination="ni8-O5-2Nm" id="zVy-Cf-06g"/>
+                <outlet property="deleteButton" destination="jXJ-nC-Zes" id="57g-hE-ytz"/>
+                <outlet property="editButton" destination="7Bs-0M-CTI" id="Dvp-6n-4Dk"/>
+                <outlet property="indexLabel" destination="1Ew-Z9-f90" id="Mmi-Wz-4kK"/>
+                <outlet property="titleLabel" destination="8Up-6B-Il3" id="grb-ww-ZTB"/>
+                <outletCollection property="gestureRecognizers" destination="m71-B7-bmM" appends="YES" id="OSI-Ly-NKb"/>
+            </connections>
+            <point key="canvasLocation" x="41.600000000000001" y="143.7192118226601"/>
+        </view>
+        <tapGestureRecognizer id="m71-B7-bmM">
+            <connections>
+                <action selector="tapAction:" destination="iN0-l3-epB" id="awc-4Z-CBz"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+</document>

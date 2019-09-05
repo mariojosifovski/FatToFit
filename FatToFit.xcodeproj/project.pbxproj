@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC9B18472320C09700A709AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B18462320C09700A709AD /* AppDelegate.swift */; };
+		AC9B184C2320C09700A709AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9B184A2320C09700A709AD /* Main.storyboard */; };
+		AC9B184F2320C09700A709AD /* FatToFit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC9B184D2320C09700A709AD /* FatToFit.xcdatamodeld */; };
+		AC9B18512320C09800A709AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9B18502320C09800A709AD /* Assets.xcassets */; };
+		AC9B18542320C09800A709AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9B18522320C09800A709AD /* LaunchScreen.storyboard */; };
+		AC9B185F2320C09800A709AD /* FatToFitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B185E2320C09800A709AD /* FatToFitTests.swift */; };
+		AC9B186B2320C48700A709AD /* ExerciseHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC9B186A2320C48700A709AD /* ExerciseHeaderView.xib */; };
+		AC9B186D2320C5E700A709AD /* ExercisesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B186C2320C5E700A709AD /* ExercisesTableViewController.swift */; };
+		AC9B18702320C62A00A709AD /* ExerciseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B186F2320C62A00A709AD /* ExerciseModel.swift */; };
+		AC9B18722320C64F00A709AD /* ExerciseSetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B18712320C64F00A709AD /* ExerciseSetModel.swift */; };
+		AC9B18742320C6C900A709AD /* ExerciseSetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B18732320C6C900A709AD /* ExerciseSetTableViewCell.swift */; };
+		AC9B18772320CAF100A709AD /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B18762320CAF100A709AD /* UIView+Nib.swift */; };
+		AC9B18792320CB9200A709AD /* ExerciseHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B18782320CB9200A709AD /* ExerciseHeaderView.swift */; };
+		AC9B187B2320CE1600A709AD /* CommonEnumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B187A2320CE1600A709AD /* CommonEnumerations.swift */; };
+		AC9B187D2320E84A00A709AD /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B187C2320E84A00A709AD /* UITableViewExtension.swift */; };
+		AC9B18802320F09700A709AD /* TriangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B187F2320F09700A709AD /* TriangleView.swift */; };
+		AC9B18822320F9B200A709AD /* AddSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B18812320F9B200A709AD /* AddSetViewController.swift */; };
+		AC9B18842321018100A709AD /* RoundedCornersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B18832321018100A709AD /* RoundedCornersView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC9B185B2320C09800A709AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC9B183B2320C09700A709AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC9B18422320C09700A709AD;
+			remoteInfo = FatToFit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC9B18432320C09700A709AD /* FatToFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FatToFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC9B18462320C09700A709AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC9B184B2320C09700A709AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC9B184E2320C09700A709AD /* FatToFit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FatToFit.xcdatamodel; sourceTree = "<group>"; };
+		AC9B18502320C09800A709AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC9B18532320C09800A709AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC9B18552320C09800A709AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC9B185A2320C09800A709AD /* FatToFitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FatToFitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC9B185E2320C09800A709AD /* FatToFitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FatToFitTests.swift; sourceTree = "<group>"; };
+		AC9B18602320C09800A709AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC9B186A2320C48700A709AD /* ExerciseHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExerciseHeaderView.xib; sourceTree = "<group>"; };
+		AC9B186C2320C5E700A709AD /* ExercisesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesTableViewController.swift; sourceTree = "<group>"; };
+		AC9B186F2320C62A00A709AD /* ExerciseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseModel.swift; sourceTree = "<group>"; };
+		AC9B18712320C64F00A709AD /* ExerciseSetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseSetModel.swift; sourceTree = "<group>"; };
+		AC9B18732320C6C900A709AD /* ExerciseSetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseSetTableViewCell.swift; sourceTree = "<group>"; };
+		AC9B18762320CAF100A709AD /* UIView+Nib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Nib.swift"; sourceTree = "<group>"; };
+		AC9B18782320CB9200A709AD /* ExerciseHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseHeaderView.swift; sourceTree = "<group>"; };
+		AC9B187A2320CE1600A709AD /* CommonEnumerations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonEnumerations.swift; sourceTree = "<group>"; };
+		AC9B187C2320E84A00A709AD /* UITableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		AC9B187F2320F09700A709AD /* TriangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleView.swift; sourceTree = "<group>"; };
+		AC9B18812320F9B200A709AD /* AddSetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSetViewController.swift; sourceTree = "<group>"; };
+		AC9B18832321018100A709AD /* RoundedCornersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornersView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC9B18402320C09700A709AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9B18572320C09800A709AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC9B183A2320C09700A709AD = {
+			isa = PBXGroup;
+			children = (
+				AC9B18452320C09700A709AD /* FatToFit */,
+				AC9B185D2320C09800A709AD /* FatToFitTests */,
+				AC9B18442320C09700A709AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC9B18442320C09700A709AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC9B18432320C09700A709AD /* FatToFit.app */,
+				AC9B185A2320C09800A709AD /* FatToFitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC9B18452320C09700A709AD /* FatToFit */ = {
+			isa = PBXGroup;
+			children = (
+				AC9B18462320C09700A709AD /* AppDelegate.swift */,
+				AC9B184A2320C09700A709AD /* Main.storyboard */,
+				AC9B187A2320CE1600A709AD /* CommonEnumerations.swift */,
+				AC9B187E2320F07500A709AD /* Custom Views */,
+				AC9B18752320CA8300A709AD /* Extensions */,
+				AC9B186E2320C61700A709AD /* Data models */,
+				AC9B18692320C3D800A709AD /* View Controllers */,
+				AC9B1885232140CC00A709AD /* TableViewCells */,
+				AC9B18502320C09800A709AD /* Assets.xcassets */,
+				AC9B18522320C09800A709AD /* LaunchScreen.storyboard */,
+				AC9B18552320C09800A709AD /* Info.plist */,
+				AC9B184D2320C09700A709AD /* FatToFit.xcdatamodeld */,
+			);
+			path = FatToFit;
+			sourceTree = "<group>";
+		};
+		AC9B185D2320C09800A709AD /* FatToFitTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC9B185E2320C09800A709AD /* FatToFitTests.swift */,
+				AC9B18602320C09800A709AD /* Info.plist */,
+			);
+			path = FatToFitTests;
+			sourceTree = "<group>";
+		};
+		AC9B18692320C3D800A709AD /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AC9B186C2320C5E700A709AD /* ExercisesTableViewController.swift */,
+				AC9B18812320F9B200A709AD /* AddSetViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		AC9B186E2320C61700A709AD /* Data models */ = {
+			isa = PBXGroup;
+			children = (
+				AC9B186F2320C62A00A709AD /* ExerciseModel.swift */,
+				AC9B18712320C64F00A709AD /* ExerciseSetModel.swift */,
+			);
+			path = "Data models";
+			sourceTree = "<group>";
+		};
+		AC9B18752320CA8300A709AD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AC9B18762320CAF100A709AD /* UIView+Nib.swift */,
+				AC9B187C2320E84A00A709AD /* UITableViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AC9B187E2320F07500A709AD /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC9B187F2320F09700A709AD /* TriangleView.swift */,
+				AC9B18832321018100A709AD /* RoundedCornersView.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		AC9B1885232140CC00A709AD /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				AC9B18732320C6C900A709AD /* ExerciseSetTableViewCell.swift */,
+				AC9B18782320CB9200A709AD /* ExerciseHeaderView.swift */,
+				AC9B186A2320C48700A709AD /* ExerciseHeaderView.xib */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC9B18422320C09700A709AD /* FatToFit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC9B18632320C09800A709AD /* Build configuration list for PBXNativeTarget "FatToFit" */;
+			buildPhases = (
+				AC9B183F2320C09700A709AD /* Sources */,
+				AC9B18402320C09700A709AD /* Frameworks */,
+				AC9B18412320C09700A709AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FatToFit;
+			productName = FatToFit;
+			productReference = AC9B18432320C09700A709AD /* FatToFit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC9B18592320C09800A709AD /* FatToFitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC9B18662320C09800A709AD /* Build configuration list for PBXNativeTarget "FatToFitTests" */;
+			buildPhases = (
+				AC9B18562320C09800A709AD /* Sources */,
+				AC9B18572320C09800A709AD /* Frameworks */,
+				AC9B18582320C09800A709AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC9B185C2320C09800A709AD /* PBXTargetDependency */,
+			);
+			name = FatToFitTests;
+			productName = FatToFitTests;
+			productReference = AC9B185A2320C09800A709AD /* FatToFitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC9B183B2320C09700A709AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Planesarc;
+				TargetAttributes = {
+					AC9B18422320C09700A709AD = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					AC9B18592320C09800A709AD = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = AC9B18422320C09700A709AD;
+					};
+				};
+			};
+			buildConfigurationList = AC9B183E2320C09700A709AD /* Build configuration list for PBXProject "FatToFit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC9B183A2320C09700A709AD;
+			productRefGroup = AC9B18442320C09700A709AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC9B18422320C09700A709AD /* FatToFit */,
+				AC9B18592320C09800A709AD /* FatToFitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC9B18412320C09700A709AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9B18542320C09800A709AD /* LaunchScreen.storyboard in Resources */,
+				AC9B18512320C09800A709AD /* Assets.xcassets in Resources */,
+				AC9B184C2320C09700A709AD /* Main.storyboard in Resources */,
+				AC9B186B2320C48700A709AD /* ExerciseHeaderView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9B18582320C09800A709AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC9B183F2320C09700A709AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9B186D2320C5E700A709AD /* ExercisesTableViewController.swift in Sources */,
+				AC9B18822320F9B200A709AD /* AddSetViewController.swift in Sources */,
+				AC9B187D2320E84A00A709AD /* UITableViewExtension.swift in Sources */,
+				AC9B187B2320CE1600A709AD /* CommonEnumerations.swift in Sources */,
+				AC9B184F2320C09700A709AD /* FatToFit.xcdatamodeld in Sources */,
+				AC9B18742320C6C900A709AD /* ExerciseSetTableViewCell.swift in Sources */,
+				AC9B18722320C64F00A709AD /* ExerciseSetModel.swift in Sources */,
+				AC9B18472320C09700A709AD /* AppDelegate.swift in Sources */,
+				AC9B18842321018100A709AD /* RoundedCornersView.swift in Sources */,
+				AC9B18802320F09700A709AD /* TriangleView.swift in Sources */,
+				AC9B18702320C62A00A709AD /* ExerciseModel.swift in Sources */,
+				AC9B18772320CAF100A709AD /* UIView+Nib.swift in Sources */,
+				AC9B18792320CB9200A709AD /* ExerciseHeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9B18562320C09800A709AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9B185F2320C09800A709AD /* FatToFitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC9B185C2320C09800A709AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC9B18422320C09700A709AD /* FatToFit */;
+			targetProxy = AC9B185B2320C09800A709AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC9B184A2320C09700A709AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC9B184B2320C09700A709AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC9B18522320C09800A709AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC9B18532320C09800A709AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC9B18612320C09800A709AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC9B18622320C09800A709AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC9B18642320C09800A709AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5P3E7R9KW;
+				INFOPLIST_FILE = FatToFit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Planesarc.FatToFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC9B18652320C09800A709AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5P3E7R9KW;
+				INFOPLIST_FILE = FatToFit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Planesarc.FatToFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC9B18672320C09800A709AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5P3E7R9KW;
+				INFOPLIST_FILE = FatToFitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Planesarc.FatToFitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FatToFit.app/FatToFit";
+			};
+			name = Debug;
+		};
+		AC9B18682320C09800A709AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5P3E7R9KW;
+				INFOPLIST_FILE = FatToFitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Planesarc.FatToFitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FatToFit.app/FatToFit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC9B183E2320C09700A709AD /* Build configuration list for PBXProject "FatToFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9B18612320C09800A709AD /* Debug */,
+				AC9B18622320C09800A709AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC9B18632320C09800A709AD /* Build configuration list for PBXNativeTarget "FatToFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9B18642320C09800A709AD /* Debug */,
+				AC9B18652320C09800A709AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC9B18662320C09800A709AD /* Build configuration list for PBXNativeTarget "FatToFitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9B18672320C09800A709AD /* Debug */,
+				AC9B18682320C09800A709AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AC9B184D2320C09700A709AD /* FatToFit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC9B184E2320C09700A709AD /* FatToFit.xcdatamodel */,
+			);
+			currentVersion = AC9B184E2320C09700A709AD /* FatToFit.xcdatamodel */;
+			path = FatToFit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AC9B183B2320C09700A709AD /* Project object */;
+}
